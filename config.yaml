@@ -66,15 +66,17 @@ params:
 
     widgets:
         enabled:
-            - search
-            - archives
+            - category-cloud
             - tag-cloud
 
         archives:
             limit: 5
 
         tagCloud:
-            limit: 10
+            limit: 20
+
+        categoriesCloud:
+            limit: 20
 
     opengraph:
         twitter:
