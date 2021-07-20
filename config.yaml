@@ -38,6 +38,7 @@ params:
             src: img/avatar.svg
 
     article:
+        toc: true
         math: false
         license:
             enabled: false
