@@ -1,7 +1,7 @@
 ---
-title: "GLOG"
+title: "System-Neutral"
 description: ""
-slug: "glog"
+slug: "system-neutral"
 image:
 style:
     background: "#a85341"

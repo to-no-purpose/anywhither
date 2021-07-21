@@ -1,6 +1,6 @@
 ---
-title: "map"
-description: "maps you idiot"
+title: "Maps"
+description: ""
 slug: "map"
 image:
 ---

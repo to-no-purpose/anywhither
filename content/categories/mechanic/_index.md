@@ -1,6 +1,6 @@
 ---
-title: "mechanic"
-description: "dumb dumb dee dumb"
+title: "Mechanics"
+description: ""
 slug: "mechanic"
 image:
 ---

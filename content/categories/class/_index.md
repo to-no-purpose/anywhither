@@ -1,6 +1,6 @@
 ---
-title: "class"
-description: "Player character classes for various systems (or lack thereof)."
+title: "Classes"
+description: ""
 slug: "class"
 image:
 ---

@@ -1,7 +1,7 @@
 ---
-title: "GLOG"
+title: "Travel"
 description: ""
-slug: "glog"
+slug: "travel"
 image:
 style:
     background: "#a85341"

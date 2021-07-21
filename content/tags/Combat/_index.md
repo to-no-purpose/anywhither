@@ -1,7 +1,7 @@
 ---
-title: "GLOG"
+title: "Combat"
 description: ""
-slug: "glog"
+slug: "combat"
 image:
 style:
     background: "#a85341"
