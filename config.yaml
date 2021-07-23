@@ -24,7 +24,7 @@ params:
 
     footer:
         since: 2021
-        customText:
+        customText: jason@anywhither.com
 
     dateFormat:
         published: 2006-01-02
