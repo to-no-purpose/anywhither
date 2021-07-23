@@ -1,10 +1,14 @@
 ---
 title: "Janakota: Food and Drink"
 date: "2020-10-06"
-description: ""
+description: "d10 mushroom teas, d8x8 meal generator, and d4 desserts."
 categories:
+- generators
 tags:
+- janakota
+- setting-fluff
 - system-neutral
+- tables
 ---
 
 Guests are welcomed into the home with an offer of drink; generally some variety of mushroom tea. At mealtimes Janakotans sit cross-legged around low tables upon which communal platters of food are set. Large banana leaves are held in the left hand to be used as plates and food is consumed using the right hand. The youngest in the group help themselves to the platters first, guests before hosts.

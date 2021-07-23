@@ -1,13 +1,14 @@
 ---
 title: "Janakota: Map and Overland Travel Rules"
 date: "2020-05-15"
-description: "These rules are intended to be the foundation of a travel-focused campaign. If you consider travel something that has to happen between the interesting bits, these rules are not for you."
+description: "A topographic map and the rules to traverse it."
 categories:
-- map
-- mechanic
+- maps
+- mechanics
 tags:
 - system-neutral
 - travel
+- janakota
 ---
 
 Janakota is an island covered in oppressive jungle and teaming with dangerous wildlife. The legions of the Yellow City were recently withdrawn leaving the people of the island to, once again, govern themselves. For those brave enough to venture outside Janakota’s few settlements the jungle may hide unmatched wealth.

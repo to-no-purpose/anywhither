@@ -3,16 +3,19 @@ title: "Janakota: Weather"
 date: "2020-05-01"
 description: "This is my take on [Daniel Sell’s Six Dimensional Weather](https://whatwouldconando.blogspot.com/2017/04/five-dimensional-weather.html) for my jungle island setting of Janakota."
 categories:
-- map
-- mechanic
+- maps
+- mechanics
 tags:
 - system-neutral
 - travel
+- janakota
 ---
 
 This is my take on [Daniel Sell’s Six Dimensional Weather](https://whatwouldconando.blogspot.com/2017/04/five-dimensional-weather.html) for my jungle island setting of Janakota. I’ve made a few tweaks of my own, but the idea is the same: you pick a spot and begin rolling to generate weather. Travel across Janakota is supposed to be difficult, not least because of the chaotic weather. This generator reflects that.
 
 ![](https://madcartographer.files.wordpress.com/2020/05/janakotaweather-3.png?w=769)
+
+## Weather Generation
 
 I break down each day into six 4-hour Watches. This generator is intended to generate distinct weather for every Watch, not each day.
 
@@ -23,6 +26,8 @@ Some hexes are split. The top-left result applies during the day and the bottom-
 Some hexes have walls. If a result leads you into a wall, “slide” to the nearest hex. Some walls are marked by an X. Treat these the same as a roll of 7+. Some walls are marked by arrows – these can be traversed only in the direction indicated by the arrow.
 
 All these rules contribute to the chaos – but some patterns do emerge. Sporestorms and Spiderblooms are rare but when they happen they’re likely to stick around for a while. Superblooms are rare and fleeting. Typhoons are uncommon and always in the midst of a deluge of rain.
+
+### Weather Types
 
 Here’s a closer look at the types of weather on Janakota. A little context: you must roll equal to or less than a target number but above your Fatigue to succeed any given check. Resilience is essentially HP.
 
@@ -43,6 +48,8 @@ Here’s a closer look at the types of weather on Janakota. A little context: yo
 
 Superblooms, Sporestorms and Spiderblooms require a bit more thought. I want them to have a much more significant impact on the world than the other types of weather.
 
+### Example
+
 And here’s a week’s worth of random generation. The weather soon turns to torrential rain and gets dangerously close to a typhoon before settling into an extended Sporestorm.
 
 |Day|0-4|4-8|8-12|12-16|16-20|20-0|
@@ -54,6 +61,8 @@ And here’s a week’s worth of random generation. The weather soon turns to to
 |Friday|Downpour|Rain|Rain|Rain|Rain|Rain|
 |Saturday|Fog|Rain|Downpour|Wind|Wind|Sporestorm|
 |Sunday|Sporestorm|Sporestorm|Wind|Sporestorm|Sporestorm|Sporestorm|
+
+## Equipment
 
 The last critical piece of this system is _gear_. Gear to protect yourself from all this nasty weather. Here are a few examples.
 
