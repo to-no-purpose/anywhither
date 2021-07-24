@@ -1,7 +1,7 @@
 ---
 title: "Janakota: Weather"
 date: "2020-05-01"
-description: "This is my take on [Daniel Sell’s Six Dimensional Weather](https://whatwouldconando.blogspot.com/2017/04/five-dimensional-weather.html) for my jungle island setting of Janakota."
+description: "Dynamic weather generation for a jungle island."
 categories:
 - maps
 - mechanics
