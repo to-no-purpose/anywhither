@@ -212,7 +212,11 @@
     }
     .welcomments__comments-title {
     }
-    .welcomments__comment-container {
+     .welcomments__comment-container {
+        margin-bottom: var(--section-separation);
+    }   
+    .welcomments__comment-container:empty {
+        display: none;
     }
     .welcomments__comment {
         margin-bottom: 1rem;
@@ -368,7 +372,6 @@
     }
     .welcomments__comment-form {
         // margin-top: 2rem;
-        margin-top: var(--section-separation);
     }
     .welcomments__form-group {
 
