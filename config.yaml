@@ -116,6 +116,11 @@ menu:
           url: /
           weight: -100
           pre: home
+        - identifier: rss
+          name: RSS
+          url: /index.xml
+          weight: 900
+          pre: rss  
 
 related:
     includeNewer: true
