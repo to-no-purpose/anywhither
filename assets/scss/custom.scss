@@ -279,12 +279,13 @@
         width: 4rem;
     }
     .welcomments__author-avatar-img {
-        border-radius: 9999px;
+        border-radius: 6px;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
+        border-style: none;
         margin: 0 !important;
     }
     .welcomments__author-information {
