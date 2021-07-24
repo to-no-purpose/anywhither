@@ -16,9 +16,9 @@
   {{ end }}
 
   {{ if gt $allComments 0 }}
-    <h3 id="welcomments__comment-count-title" class="section-title">{{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }}</h3>
+    <h3 id="welcomments__comment-count-title" class="section-title"> <span class="icon">{{ partial "helper/icon" "messages" }} </span> {{ len $allComments }} comment{{ if gt $allComments 1 }}s{{ end }} </h3>
   {{ else }}
-    <h3 id="welcomments__comment-count-title" class="section-title">No comments yet!</h3>
+    <h3 id="welcomments__comment-count-title" class="section-title"> <span class="icon"> {{ partial "helper/icon" "messages" }} </span> No comments yet!</h3>
   {{ end }}
 
 <div id="welcomments__container" class="welcomments__container">
@@ -69,12 +69,12 @@
     // Updates the "x comments" title when there are comments that are dynamically loaded.
     // By default, the result of this function becomes the innerText of an element with the
     // id "welcomments__comment-count-title". It's okay if that element doesn't exist.
-    commentCountTitleFactory: function (commentCount) {
+    // commentCountTitleFactory: function (commentCount) {
       if (commentCount === 0) {
         return "No comments yet!";
       }
 
-      return commentCount === 1 ? "One comment" : `${commentCount} comments`;
+      return commentCount === 1 ? "1 comment" : `${commentCount} comments`;
     },
 
     // Builds comments dynamically when they are not part of the static HTML of the rest of
@@ -86,7 +86,7 @@
       var month = new Intl.DateTimeFormat("en", {month: "long"}).format(comment.date);
       var day = new Intl.DateTimeFormat("en", {day: "2-digit"}).format(comment.date);
       var avatarUrl = comment.author.avatar_url ||
-        "https://eu.ui-avatars.com/api/?length=1&color=111E22&background=F53D71&name=" + comment.author.name;
+        "https://eu.ui-avatars.com/api/?length=2&color=111E22&background=00E7A5&name=" + comment.author.name;
 
 
       {{ $template := dict }}
