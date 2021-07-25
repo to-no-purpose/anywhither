@@ -207,12 +207,14 @@
     }
 
     .welcomments__comment-container {
+        margin-bottom: var(--section-separation);
         .welcomments__comment-form {
         margin-top: 2rem;
         }
         
     }   
     .welcomments__comment-container:empty {
+        margin-bottom: 0;
     
     }
 
@@ -370,7 +372,7 @@
         text-align: center;
     }
     .welcomments__comment-form {
-        margin-top: var(--section-separation);
+        // margin-top: var(--section-separation);
     }
     .welcomments__form-group {
 
