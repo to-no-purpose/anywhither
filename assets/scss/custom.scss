@@ -401,7 +401,7 @@
             display: block;
             line-height: 1.25;
             padding: calc(var(--card-padding)*.2);
-            color: var(--color-txt-one);
+            color: var(--color-txt-two);
             width: 100%;
             border-style: solid;
             font-size: 1.4rem;
@@ -409,7 +409,7 @@
 
             &:focus {
                 opacity: 1;
-                color: var(--color-txt-two);
+                color: var(--color-txt-one);
                 background-color: var(--color-bg-three);
                 outline: none;
 
@@ -418,6 +418,7 @@
                 opacity: 1;
                 color: var(--color-bg-one);
                 font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
+                outline: none;
             }
         }
         textarea {
@@ -427,7 +428,7 @@
             border-width: 4px;
             display: block;
             padding: calc(var(--card-padding)*.5);
-            color: var(--color-txt-one);
+            color: var(--color-txt-two);
             width: 100%;
             border-style: solid;
             resize: none;
@@ -436,13 +437,15 @@
             font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
             &:focus {
                 opacity: 1;
-                color: var(--color-txt-two);
+                color: var(--color-txt-one);
+                outline: none;
 
             }
             &::placeholder {
                 opacity: 1;
                 color: var(--color-bg-one);
                 font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
+                outline: none;
             }
         }
     }
