@@ -357,8 +357,8 @@
         margin-top: .75rem;
         margin-bottom: 2rem;
         color: var(--color-txt-two);
-        font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
-        font-weight: 300;
+        font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
+        font-weight: 400;
         text-align: center;
 
         a {
@@ -375,8 +375,8 @@
         margin-top: .75rem;
         margin-bottom: 1rem;
         color: var(--color-txt-two);
-        font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
-        font-weight: 300;
+        font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
+        font-weight: 400;
         text-align: center;
     }
     .welcomments__comment-form {
@@ -391,7 +391,7 @@
             line-height: 1rem;
             margin-bottom: .5rem;
             color: var(--color-txt-one);
-            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+            font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
         }
         input {
             background-color: var(--color-bg-three);
@@ -405,7 +405,7 @@
             width: 100%;
             border-style: solid;
             font-size: 1.4rem;
-            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+            font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
 
             &:focus {
                 opacity: 1;
@@ -417,7 +417,7 @@
             &::placeholder {
                 opacity: 1;
                 color: var(--color-bg-one);
-                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
+                font-variation-settings: "MONO" 1, "CASL" .5, "slnt" -15, "CRSV" 0;
                 outline: none;
             }
         }
@@ -425,16 +425,16 @@
             background-color: var(--color-bg-three);
             border-color: var(--color-bg-three);
             border-radius: calc(var(--card-border-radius)*.75);
-            border-width: 4px;
+            border-width: 0px;
             display: block;
             padding: calc(var(--card-padding)*.5);
             color: var(--color-txt-two);
             width: 100%;
             border-style: solid;
-            resize: none;
+            resize: vertical;
             font-size: calc(var(--article-font-size)*.85);
             line-height: calc(var(--article-line-height)*.85);
-            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+            font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
             &:focus {
                 opacity: 1;
                 color: var(--color-txt-one);
@@ -444,7 +444,7 @@
             &::placeholder {
                 opacity: 1;
                 color: var(--color-bg-one);
-                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
+                font-variation-settings: "MONO" 1, "CASL" .5, "slnt" -15, "CRSV" 0;
                 outline: none;
             }
         }
@@ -454,8 +454,8 @@
     }
     .welcomments__optional-notice {
         color: var(--color-txt-two);
-        font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
-        font-weight: 300;
+        font-variation-settings: "MONO" 1, "CASL" .5, "slnt" -15, "CRSV" 0;
+        font-weight: 400;
     }
 
     .welcomments__submit-button-div {
@@ -479,7 +479,8 @@
             color: var(--color-bg-one);
             font-size: 1.4rem;
             transition: all 0.3s ease;
-            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+            font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
+            font-weight: 500;
 
             &:hover {
                 box-shadow: var(--shadow-l2);
@@ -493,16 +494,16 @@
             display: flex;
             color: var(--color-txt-two);
             margin-top: 5px;
+            margin-left: 4rem;
             font-size: 1rem;
             transition: all 0.3s ease;
-            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+            font-variation-settings: "MONO" 1, "CASL" .5, "slnt" 0, "CRSV" 0;
             align-items: center;
 
 
             font-weight: 350;
 
             .welcomments__comment-reply-icon {
-                margin-left: 4rem;
                 width: 25px;
                 height: 25px;
                 stroke-width: 1.33;
