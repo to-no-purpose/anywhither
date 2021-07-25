@@ -27,6 +27,6 @@
   <div itemprop="text" class="welcomments__comment-message">{{ .message }}</div>
   <a class="welcomments__comment-reply-link"
      {{ printf "href=\"%s/websites/%s/comments/%s/reply\"" .apiUrl .websiteId .id | safeHTMLAttr }}>
-    Reply to {{ .authorName }}
+    <span class="welcomments__comment-reply-icon">{{ partial "helper/icon" "corner-down-right" }}</span>Reply to {{ .authorName }}
   </a>
 </article>
