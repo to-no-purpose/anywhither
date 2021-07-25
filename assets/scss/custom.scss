@@ -350,7 +350,44 @@
                 font-variation-settings: "MONO" 0, "CASL" 0, "slnt" -15, "CRSV" 0;
             }
         }
-    }
+        table {
+        width: auto;
+        border-collapse: collapse;
+        border-spacing: 1;
+        overflow: hidden;
+        font-size: 0.96em;
+        background-color: rgba(0,0,0,.05);
+        margin-bottom: 1.5em;
+        border-radius: var(--tag-border-radius);
+        }
+    
+        th,
+        td {
+            text-align: left;
+            padding: 4px 8px 4px 8px;
+        }
+    
+        td {
+            vertical-align: top;
+        }
+    
+        th, {
+            border-bottom: 2px solid var(--color-orange-one);
+            background-color: var(--color-bg-one);
+            font-variation-settings: "MONO" 0, "CASL" .5, "slnt" 0, "CRSV" 0;
+            font-weight: 700;
+    
+        }
+    
+        tr {
+            // border-bottom: 1px solid var(--color-orange-one);
+            // border-top: 1px solid var(--table-border-color);
+        }
+    
+        tr:nth-child(even) {
+            background-color: var(--color-bg-three);
+        }
+        }
     .welcomments__markdown-notice {
         font-size: 1rem;
         line-height: 1rem;
