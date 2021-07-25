@@ -360,6 +360,14 @@
         font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
         font-weight: 300;
         text-align: center;
+
+        a {
+            color: var(--color-pink-one);
+            &:hover {
+                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
+                font-weight: 500;
+            }
+        }
     }
     .welcomments__email-notice {
         font-size: 1rem;
@@ -409,8 +417,7 @@
             &::placeholder {
                 opacity: 1;
                 color: var(--color-bg-one);
-                background-color: var(--color-bg-three);
-                outline: none;
+                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
             }
         }
         textarea {
@@ -426,18 +433,16 @@
             resize: none;
             font-size: calc(var(--article-font-size)*.85);
             line-height: calc(var(--article-line-height)*.85);
+            font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
             &:focus {
                 opacity: 1;
                 color: var(--color-txt-two);
-                background-color: var(--color-bg-three);
-                outline: none;
 
             }
             &::placeholder {
                 opacity: 1;
                 color: var(--color-bg-one);
-                background-color: var(--color-bg-three);
-                outline: none;
+                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
             }
         }
     }
@@ -476,7 +481,7 @@
             &:hover {
                 box-shadow: var(--shadow-l2);
                 color: var(--color-bg-one);
-                font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
+                font-variation-settings: "MONO" 1, "CASL" 1, "slnt" -5, "CRSV" 0;
                 font-weight: 600;
                 }
     }
