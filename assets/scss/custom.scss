@@ -60,7 +60,7 @@
 
     background-color: var(--color-bg-two);
     border-radius: var(--card-border-radius);
-    box-shadow: var(--shadow-l1);
+    box-shadow: var(--shadow-one);
     padding: var(--card-padding);
 
     font-variation-settings: "MONO" 1, "CASL" 0, "slnt" 0, "CRSV" 0;
@@ -342,11 +342,11 @@
             margin-bottom: .5rem;
         }
         a {
-            color: var(--color-pink-one);
+            color: var(--accent-two);
             font-variation-settings: "MONO" 0, "CASL" 0, "slnt" 0, "CRSV" 0;
             &:hover {
                 background: none;
-                color: var(--color-pink-one);
+                color: var(--accent-two);
                 font-variation-settings: "MONO" 0, "CASL" 0, "slnt" -15, "CRSV" 0;
             }
         }
@@ -372,7 +372,7 @@
         }
     
         th, {
-            border-bottom: 2px solid var(--color-orange-one);
+            border-bottom: 2px solid var(--accent-three);
             background-color: var(--color-bg-one);
             font-variation-settings: "MONO" 0, "CASL" .5, "slnt" 0, "CRSV" 0;
             font-weight: 700;
@@ -380,7 +380,7 @@
         }
     
         tr {
-            // border-bottom: 1px solid var(--color-orange-one);
+            // border-bottom: 1px solid var(--accent-three);
             // border-top: 1px solid var(--table-border-color);
         }
     
@@ -399,7 +399,7 @@
         text-align: center;
 
         a {
-            color: var(--color-pink-one);
+            color: var(--accent-two);
             &:hover {
                 font-variation-settings: "MONO" 1, "CASL" 0, "slnt" -15, "CRSV" 0;
                 font-weight: 500;
@@ -504,8 +504,8 @@
     .welcomments__submit-button {
 
             margin-top: 1.5rem;
-            background: var(--color-pink-one);
-            box-shadow: var(--shadow-l1);
+            background: var(--accent-two);
+            box-shadow: var(--shadow-one);
             border-radius: var(--tag-border-radius);
             padding-top: 4px;
             padding-bottom: 4px;
@@ -520,7 +520,7 @@
             font-weight: 500;
 
             &:hover {
-                box-shadow: var(--shadow-l2);
+                box-shadow: var(--shadow-two);
                 color: var(--color-bg-one);
                 font-variation-settings: "MONO" 1, "CASL" 1, "slnt" -5, "CRSV" 0;
                 font-weight: 600;
