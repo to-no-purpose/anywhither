@@ -86,7 +86,7 @@
       var month = new Intl.DateTimeFormat("en", {month: "long"}).format(comment.date);
       var day = new Intl.DateTimeFormat("en", {day: "2-digit"}).format(comment.date);
       var avatarUrl = comment.author.avatar_url ||
-        "https://eu.ui-avatars.com/api/?length=2&color=111E22&background=00E7A5&name=" + comment.author.name;
+        "https://eu.ui-avatars.com/api/?background=05D6A2&color=111E22&name=" + comment.author.name;
 
 
       {{ $template := dict }}
