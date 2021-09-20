@@ -1,3 +1,3 @@
 [submodule "themes/hugo-theme-stack"]
-	path = themes/hugo-theme-stack
+	path = themes/restack
 	url = https://github.com/to-no-purpose/hugo-theme-stack
