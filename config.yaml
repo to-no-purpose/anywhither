@@ -1,6 +1,6 @@
 baseurl: https://www.anywhither.com
 languageCode: en-us
-theme: hugo-theme-stack
+theme: restack
 paginate: 10
 title: anywhither
 
