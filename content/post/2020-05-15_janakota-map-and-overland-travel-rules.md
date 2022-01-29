@@ -3,9 +3,10 @@ title: "Janakota: Map and Overland Travel Rules"
 date: "2020-05-15"
 description: "A topographic map and the rules to traverse it."
 categories:
-- maps
-- mechanics
+- rpg
+- cartography
 tags:
+- mechanic
 - system-neutral
 - travel
 - janakota

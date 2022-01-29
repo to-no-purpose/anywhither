@@ -3,9 +3,10 @@ title: "Janakota: Food and Drink"
 date: "2020-10-06"
 description: "d10 mushroom teas, d8x8 meal generator, and d4 desserts."
 categories:
-- generators
+- rpg
 tags:
 - janakota
+- generator
 - setting-fluff
 - system-neutral
 - tables

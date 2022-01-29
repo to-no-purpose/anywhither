@@ -4,9 +4,9 @@ date: "2020-11-06"
 description: "A GLOG class limited to a single HP - better make it count."
 image: ""
 categories:
-- classes
+- rpg
 tags:
-- glog
+- class
 - setting-neutral
 ---
 

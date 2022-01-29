@@ -3,9 +3,10 @@ title: "Janakota: Weather"
 date: "2020-05-01"
 description: "Dynamic weather generation for a jungle island."
 categories:
-- maps
-- mechanics
+- cartography
+- rpg
 tags:
+- mechanic
 - system-neutral
 - travel
 - janakota

@@ -4,7 +4,8 @@ date: "2020-07-09"
 description: "An urban hellscape in the style of Blade Runner."
 image: "seungjin-woo-bladerunner2049.jpg"
 categories:
-- maps
+- cartography
+- rpg
 tags:
 - system-neutral
 - setting-fluff

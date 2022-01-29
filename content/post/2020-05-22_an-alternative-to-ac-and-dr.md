@@ -3,8 +3,9 @@ title: "An Alternative to AC and DR"
 date: "2020-05-22"
 description: "An examination of the effectiveness of DR and a potential new armor mechanic."
 categories:
-- mechanics
+- rpg
 tags:
+- mechanic
 - combat
 - system-neutral
 - setting-neutral

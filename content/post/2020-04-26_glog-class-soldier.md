@@ -1,13 +1,14 @@
 ---
+draft: true
 title: "The Soldier"
 date: "2020-04-26"
 description: "A straightforward fighter-type class."
 categories:
-- classes
+- rpg
 tags:
-- glog
+- class
 - combat
-- Janakota
+- janakota
 ---
 
 This class is intended to be another alternative to the Fighter, like the hireling-focused Veteran. The Soldier is straightforward and excels at damage output and survivability. The starting equipment will need to be changed for your setting: the equipment here is for an upcoming game set on Janakota, an island off the coast of Yoon-Suin. Each set of gear here includes an item specific to a location in Yoon-Suin and is intended to hint at the character’s history.

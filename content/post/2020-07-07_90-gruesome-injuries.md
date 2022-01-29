@@ -3,8 +3,9 @@ title: "90 Gruesome Injuries"
 date: "2020-07-07"
 description: "d20+ crushing injuries, d20+ piercing injuries, d20+ slashing injuries, and a lightweight wound system to support them."
 categories:
-- mechanics
+- rpg
 tags:
+- mechanic
 - combat
 - system-neutral
 - setting-neutral

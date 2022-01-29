@@ -4,8 +4,10 @@ date: "2021-01-16"
 description: "A method for creating encounter tables that react to external variables."
 image: "20140714-Thrihyrningur-path.jpg"
 categories:
-- mechanics
+- rpg
+- cartography
 tags:
+- mechanic
 - system-neutral
 - travel
 - setting-neutral
