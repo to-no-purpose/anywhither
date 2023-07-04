@@ -10,6 +10,8 @@ tags:
 - combat
 - travel
 - janakota
+_build:
+  list: never
 ---
 
 The Veteran is intended to be a variation on the Fighter focused on support and hirelings while still being an able combatant. The starting equipment will need to be changed for your setting: the equipment here is for an upcoming game set on Janakota, an island off the coast of Yoon-Suin. Each set of gear here includes an item specific to a polity in Yoon-Suin and is intended to hint at the character’s history. The War Stories and Old Contacts abilities will also give the player and referee many opportunities to discover the character’s past.
