@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "The Veteran"
 date: "2020-02-25"
 description: "A fighter past their prime."
