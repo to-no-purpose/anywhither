@@ -58,6 +58,8 @@ Your life as a soldier left you with numerous friends, enemies, and acquaintance
 
 ### Template D
 
+#### Fearless Leader
+
 As long as you are on the battlefield, none of your Apprentices will flee.
 
 [^1]: Apprentices are stolen from Five Torches Deep, in which any character may obtain a certain number of free hirelings called Hench.
